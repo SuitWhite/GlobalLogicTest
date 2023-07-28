@@ -106,6 +106,4 @@ void search_file_with_threads(char *name, char* path) {
     }
     free(threads);
     sem_destroy(&sem);
-
-    return 0;
 }
